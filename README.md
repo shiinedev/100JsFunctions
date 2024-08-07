@@ -3,7 +3,7 @@
 This repository contains 100 useful JavaScript functions for various purposes. Each function is designed to solve a specific problem or perform a particular task. 
 
 ## if you need to solve 100 Js Functions:
-- Go to [Websiete](https://www.100jsfunctions.com)
+- Go to this [Website](https://www.100jsfunctions.com)
 
 ## How to Use
 
