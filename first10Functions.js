@@ -6,7 +6,7 @@ const minutesToHours =(minutes)=>{
 }
 // Example usage:
 let minutes=minutesToHours(150);
-console.log(" minutesToHours  :"+minutes );
+console.log("1. minutesToHours  :"+minutes );
 
 //2 averageOf4Numbers
 
@@ -16,7 +16,7 @@ const averageOf4Numbers= (n1,n2,n3,n4) => {
 }
 // Example usage:
 let average =averageOf4Numbers(11,9,33,28)
-console.log("the averageOf4Numbers is:"+average);
+console.log("2. the averageOf4Numbers is :" +average);
 
 //3  concat3
 const  concat3= (string1, string2, string3, separator) => {
@@ -25,7 +25,7 @@ const  concat3= (string1, string2, string3, separator) => {
 }
  // Example usage:
 let concat= concat3("HTML","CSS","JAVASCRIPT",",");
-console.log("Concat3 : "+concat); // output HTML,CSS,JAVASCRIPT
+console.log("3. Concat3 : "+concat); // output HTML,CSS,JAVASCRIPT
 
 // 4 max5
 
@@ -50,9 +50,8 @@ const max5= (num1,num2,num3,num4,num5) => {
 }
 // Example usage:
 let largest = max5(1,2,12,-30,19.5);
-console.log("maximum number is: "+largest); // Output: 19.5
-largest = max5(18,20,52,30,1);
-console.log("maximum number is: "+largest); // Output:52 
+console.log("4.maximum number is: "+largest); // Output: 19.5
+
 // 5 getMonthsNeededToWait
 function getMonthsNeededToWait(startMonth, endMonth) {
     if (startMonth < 1 || startMonth > 12 || endMonth < 1 || endMonth > 12) {
@@ -68,10 +67,7 @@ function getMonthsNeededToWait(startMonth, endMonth) {
 
 // Example usage:
 let monthsToWait = getMonthsNeededToWait(3, 9);
-console.log("months To Wait : "+monthsToWait);  // Output: 6
-
-monthsToWait = getMonthsNeededToWait(10, 2);
-console.log("months To Wait : "+monthsToWait);  // Output: 4
+console.log("5. months To Wait : "+monthsToWait);  // Output: 6
 
 
 //6 getGasolineAmount
@@ -81,10 +77,8 @@ const getGasolineAmount = (distance, consumptionPer100Km) => {
 }
 // Example usage:
 let GasolineAmount =getGasolineAmount(128,6.4)
-console.log("the gasoline amount : "+GasolineAmount); // Output: 16.384
+console.log("6. the gasoline amount : "+GasolineAmount); // Output: 16.384
 
-GasolineAmount =getGasolineAmount(158,9.4)
-console.log("the gasoline amount : "+GasolineAmount); // Output: 29.704
 //7 lastNRevert
 function lastNRevert(text, n) {
     let lastN= text.slice(-n);
@@ -92,7 +86,7 @@ function lastNRevert(text, n) {
 }
 // Example usage:
 let reverseStr=lastNRevert("T-shirts", 4)
-console.log("the reverseStr : "+reverseStr); // Output: stri
+console.log("7. the reverseStr : "+reverseStr); // Output: stri
 
 
 //8 getBusinessAddress
@@ -111,7 +105,7 @@ let business={
     },
     name:"100jsfunctions"
 }
-console.log("the BusinessAddress : "+getBusinessAddress(business)); //Avenuepark, number 3, 123500
+console.log("8. the BusinessAddress : "+getBusinessAddress(business)); //Avenuepark, number 3, 123500
 
 // 9 getUserObject
 const getUserObject =(firstName, lastName, age) => {
@@ -123,7 +117,7 @@ const getUserObject =(firstName, lastName, age) => {
 }
 // Example usage:
 let user =getUserObject("jon","doe",31)
-console.log(user ); // Outpu  {age: 31, name: "jon doe"}
+console.log(`9. ${user}` ); // Outpu  {age: 31, name: "jon doe"}
 
 //10 canDriveCar
 const canDriveCar =(user, car)  =>{
@@ -141,4 +135,4 @@ const canDriveCar =(user, car)  =>{
 let userdrive={name:"Jon Doe",age:21}
 let car ={engineSize:1200,name:"Mazda 3"}
 let userCanDriveCar = canDriveCar(userdrive,car)
-console.log(" the userCanDriveCar : " + userCanDriveCar)  // Output: True
+console.log("10.  the userCanDriveCar : " + userCanDriveCar)  // Output: True
